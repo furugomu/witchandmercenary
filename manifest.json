@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "魔女と傭兵",
+  "description": "文末に句点を付加する",
+  "version": "1.0",
+  "icons": {
+    "32": "maru.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ncode.syosetu.com/n2819ha/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
